@@ -13,7 +13,7 @@ function Scroll() {
 
     
   return (<>
-    <h1 className='heading'>Prasanth What's on your mind</h1>
+    <h1 className='heading'>Ankitha What's on your mind</h1>
     <div className='scroll'>
        { images.map((x,index)=>{
         return <img key={index}  src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_288,h_360/"+x.imageId}/>
