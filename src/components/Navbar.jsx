@@ -17,6 +17,7 @@ function Navbar(){
          <Link to="/offers"><li className='list-items'><i className="bi bi-gift"></i>Offers</li></Link>
          <li className='list-items'><i className="bi bi-patch-question"></i>Help</li>
          <li className='list-items'><i className="bi bi-person"></i>User</li>
+         <li className='list-items'><i className="bi bi-person"></i>prasanth</li>
          
          <Link to="/my-cart"><li className='list-items'><i className="bi bi-bag-plus"></i>Cart{items.length}</li></Link>
       </ul>
